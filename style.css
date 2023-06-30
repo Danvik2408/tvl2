@@ -12,11 +12,24 @@
     align-items: center;
 
 }
-.exclusiveOfferPage{
+.exclusiveOffersPage{
     width: 100%;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #fff1ed;
+    padding-top: 70px;
+}
+.exclusiveOffersPage p{
+    font-size: 16px;
+    color: #6b6765;
+}
+.exclusiveOffersPage h2{
+    margin-top: 65px;
+    font-size: 56px;
+    text-align: center;
+    font-family: 'Lexend Zetta';
+    line-height: 50px;
+    letter-spacing: -12px;
 }
