@@ -33,3 +33,60 @@
     line-height: 50px;
     letter-spacing: -12px;
 }
+.placeContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.placeItem{
+    display: flex;
+    flex-direction: column;
+}
+.cityPhoto{
+    width: 400px;
+    height: 370px;
+    background-color: #999;
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+    padding: 20px;
+}
+.priceItem{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #f07c52;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lexend Zetta';
+    font-size: 24px;
+}
+.pomePhoto{
+    background-image: url(./img/Bitmap.svg);
+    background-size: cover;
+}
+.NewYork{
+    background-image: url(./img/Bitmap\ \(1\).svg);
+    background-size: cover;
+}
+.Paris{
+    background-image: url(./img/Bitmap\ \(2\).svg);
+    background-size: cover;
+}
+.placeItem h3{
+    font-size: 40px;
+    font-family: 'Lexend Zetta';
+    letter-spacing: -8px;
+    line-height: 48px;
+    margin-top: 20px;
+}
+.placeItem .city{
+   font-size: 16px;
+   color: #6b6765;
+}
