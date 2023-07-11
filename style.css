@@ -225,6 +225,7 @@ letter-spacing: 0;
     padding: 0px 135px;
     position: fixed;
     background-color: #6347F9;
+    z-index: 3;
 }
 .homePage header h2:first-child{
     color: #FFF;
@@ -297,6 +298,22 @@ letter-spacing: 0;
     text-transform: uppercase;
     margin-top: 100px;
 }
+.BookYourTrip{
+    animation-name: sideIn1;
+    animation-duration: 3s;
+}
+@keyframes sideIn1 {
+    10%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
 .homePageMain h2{
     margin-top: 30px;
     color: #FFF;
@@ -307,6 +324,17 @@ letter-spacing: 0;
     line-height: 80px;
     letter-spacing: -14px;
 
+}
+.ChooseYour{
+    animation-name: sideIn2;
+    animation-duration: 1.5s;
+}
+@keyframes sideIn2 {
+    10%{
+        margin-top: -100%;
+    }
+    100%{
+    }
 }
 .homePageSlider{
     width: 100%;
