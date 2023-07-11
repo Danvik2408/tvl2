@@ -63,3 +63,32 @@ for(let el of content){
             <img src="./img/${el.img}" alt="">
     </div>`)
 }
+
+
+$('.sliderPart2').mouseenter(function(){
+    $('.sliderPart2').css('height','465px')
+    $('.secondSlide').css('height','400px')
+})
+$('.sliderPart2').mouseleave(function(){
+    $('.sliderPart2').css('height','350px')
+    $('.secondSlide').css('height','304px')
+})
+
+$('.sliderPart3').mouseenter(function(){
+    $('.sliderPart3').css('height','430px')
+    $('.thirdSlide').css('height','370px')
+})
+$('.sliderPart3').mouseleave(function(){
+    $('.sliderPart3').css('height','350px')
+    $('.thirdSlide').css('height','304px')
+})
+
+
+$('.sliderPart4').mouseenter(function(){
+    $('.sliderPart4').css('height','525px')
+    $('.fourthSlide').css('height','465px')
+})
+$('.sliderPart4').mouseleave(function(){
+    $('.sliderPart4').css('height','350px')
+    $('.fourthSlide').css('height','304px')
+})

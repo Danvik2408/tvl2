@@ -10,6 +10,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
 
 }
 .exclusiveOffersPage{
@@ -212,6 +213,7 @@ letter-spacing: 0;
     background: #6347F9;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     flex-direction: column;
 }
 .homePage header{
@@ -305,4 +307,91 @@ letter-spacing: 0;
     line-height: 80px;
     letter-spacing: -14px;
 
+}
+.homePageSlider{
+    width: 100%;
+    height: 40vh;
+}
+.background{
+    width: 100%;
+    height: 20vh;
+    background-color: #fff;
+    position: absolute;
+    z-index: 1;
+    top: 80vh;
+}
+.slider{
+    width: 100%;
+    height: 40vh;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.sliderPart{
+    cursor: pointer;
+}
+.sliderPart1{
+    width: 270px;
+    height: 350px;
+}
+.sliderPart2{
+    width: 270px;
+    height: 350px;
+    transition: 0.5s;
+}
+.sliderPart3{
+    width: 270px;
+    height: 350px;
+    transition: 0.5s;
+}
+.sliderPart4{
+    width: 270px;
+    height: 350px;
+    transition: 0.5s;
+}
+.sliderPart5{
+    width: 270px;
+    height: 350px;
+}
+
+.sliderImg{
+    width: 100%;
+    height: 304px;
+    background-size: cover;
+}
+.firstSlide{
+    background-image: url(./img/Bitmap.png);
+}
+.secondSlide{
+    transition: 0.5s;
+    background-image: url(./img/Bitmap1.png);
+}
+.thirdSlide{
+    transition: 0.5s;
+    background-image: url(./img/Bitmap2.png);
+}
+.fourthSlide{
+    transition: 0.5s;
+    background-image: url(./img/Bitmap3.png);
+}
+.fifthSlide{
+    background-image: url(./img/Bitmap4.png);
+}
+.sliderPart h2{
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.sliderPart p{
+    color: rgba(51, 51, 51, 0.50);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.fst{
+    margin-left: 20px;
 }
